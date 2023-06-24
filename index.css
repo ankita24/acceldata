@@ -1,0 +1,26 @@
+body {
+  padding: 40px;
+}
+input {
+  padding: 20px;
+}
+
+audio {
+  padding: 20px;
+}
+
+#container {
+  top: 0;
+  left: 0;
+  background: #000;
+}
+
+#canvas {
+  top: 0;
+  left: 0;
+}
+
+/* #volume-control{
+    visibility: hidden;
+    padding: 0;
+} */

@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <input
+      type="file"
+      accept=".mp3,audio/*"
+      id="musicFile"
+      onchange="handleChange()"
+    /><br />
+    <div id="container">
+      <canvas id="canvas"></canvas>
+      <audio id="musicAudio" controls=""></audio><br/>
+      <!-- <input type="range" id="volume-control" onchange="handleVolume()"/> -->
+    </div>
+
+    <script src="audio.js"></script>
+  </body>
+</html>
